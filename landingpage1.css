@@ -48,7 +48,9 @@ removes blue lines around button
 	-webkit-appearance:none;
 	display: flex;
 	align-items: center;
-  cursor: pointer;
+  cursor: url(images/fuck.png) , auto;
+  
+
 }
 
 /*
