@@ -136,7 +136,7 @@ makes text disappear when user types name
     color: black;
     background-color: transparent;
     text-decoration: none;
-    position:fixed;
+    position:relative;
     top:16px;
     right:16px;
   }
