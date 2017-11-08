@@ -15,7 +15,7 @@ a.menu_links {
    position: center;
 }
 .container {
-  width: 960px;
+  width: 100%;
 position: relative;
 margin:0 auto;
 line-height: 1.4em;
@@ -71,10 +71,10 @@ Username goes here
 	position: center;
 	border: 0px;
 	border-bottom: 1px solid black;
-	width: 700px;
+	width: 80%;
 	color: black;
 	background: rgba(0, 0, 0, 0);
-	font-size: 60px;
+	font-size: 200%;
 	font-weight: 300;
 	text-align: center;
 	margin: 0 auto;
@@ -84,7 +84,7 @@ Username goes here
 }
 
 
-}
+
 
 .textcontainer {
 	width:80%;
@@ -96,6 +96,10 @@ Username goes here
 }
 
 /*text opacity in username line*/
+
+
+a
+
 .inputter:-ms-clear { 
 	display:none;
 }
@@ -118,6 +122,7 @@ Username goes here
 	border-color:transparent;
 	border: 0px;
 	border-bottom: 1px solid black;
+
 }
 /*
 makes text disappear when user types name
