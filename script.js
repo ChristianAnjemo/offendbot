@@ -6,6 +6,9 @@
  * When a click is detected, we run the function roast();
  */
 document.addEventListener("DOMContentLoaded", function() {
+var name = (getParameterByName('name') ? getParameterByName('name') : ''); // "Olivia" try changing the value after ?name= in the URL
+document.getElementById('usersName').value = name;
+
   document.getElementById('button').addEventListener('click', function() {
     console.log('clicking the button');
     roast();
@@ -100,7 +103,7 @@ function roast() {
   // the paramenter 'onend' will trigger the function named playSound() as soon as the voice API is done insulting your user
   var config = {
     pitch: 1,
-    rate: 10,
+    rate: 0.9,
     onend: playSound
   };
   responsiveVoice.speak(completeInsult, 'Australian Female', config);
@@ -179,8 +182,7 @@ function getParameterByName(name, url) { //HÄR VA DE NYTT 6/11
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-var name = (getParameterByName('name') ? getParameterByName('name') : ''); // "Olivia" try changing the value after ?name= in the URL
-document.getElementById('usersName').value = name;
+
 
 function Copy() {
   var Url = document.getElementById("url");
