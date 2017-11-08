@@ -16,7 +16,7 @@ document.getElementById('usersName').value = name;
 });
 
 var insults = [];
-insults[0] = ', you are as worthless as a corrupt stack of cock cocks.’;
+insults[0] = ', you are as worthless as a corrupt stack of cock cocks.';
 insults[1] = ', you are as insignificant as a sickening sick yucky bag of moldy lizard vomit';
 insults[2] = ', you are as worthless as a repellent infernal ton of unwanted terrible sticky eel assholes';
 insults[3] = ', you are as repulsive as a filthy awful stinky multitude of gross grotesque repulsive pig guts';
