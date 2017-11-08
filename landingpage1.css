@@ -1,5 +1,5 @@
 body { 
-	font-family: 'courier', serif;
+	font-family: 'courier', serif; 
 	color: black;
 	background-color:#f8de7e;
   background-size: cover;
@@ -20,7 +20,6 @@ position: relative;
 margin:0 auto;
 line-height: 1.4em;
 }
-
 
 
 
@@ -81,6 +80,7 @@ Username goes here
 	margin: 0 auto;
     display: flex;
     align-items: flex-end;
+    font-family: 'courier', serif; 
 }
 
 
