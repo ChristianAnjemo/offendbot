@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 var insults = [];
+insults[0] = ', I get so emotional when you are not around. That emotion is happiness.';
 insults[1] = ', you are as lesser as a sickening sick yucky bag of moldy inferior lizard vomit';
 insults[2] =', you are as worthless as a repellent infernal ton of unwanted terrible sticky eel assholes';
 insults[3] = ', you are as repulsive as a filthy awful stinky multitude of gross grotesque repulsive pig guts';
@@ -83,7 +84,7 @@ insults[67] = ', you look like one of those eggs that still have some bird shit 
 insults[68] = ', its sad that the profile picture you have on facebook is the best out of those 100 you took.';
 insults[69] = ', if I said anything to offend you it was purely intentional';
 insults[70] = ', someday you will find yourself, and you will be disappointed.';
-insults[71] = ', I get so emotional when you are not around. That emotion is happiness.';
+
 
 
 

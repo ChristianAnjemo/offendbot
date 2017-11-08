@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -27,12 +28,10 @@
   <body>
     <audio id="sound1" src="liljon-what2.mp3" preload="auto"></audio>
     <audio id="sound2" src="lil-jon-yeah.mp3" preload="auto"></audio>
-<div class="link"><a href="about.html" >About us</a> </div>
-<div id="counter">
-          
-        </div>
+<div class="link"><a href="about.html">About us</a> </div>
+
         
-          <img class="logo" src="logo.png" width="30%" height="auto">
+          
 
         </div>
 
@@ -46,11 +45,15 @@
             type="text"
             id="usersName"
             class="inputter"
-            placeholder="Who you wanna offend?"
+            placeholder="Type in name here:"
           />
         </div>
+         <div class="instructions">
+        <p>Instructions</p>
+          </div>
 <br>
         <div class="buttonPlacement">
+         
       <img id="button" onmousedown="mouseDown()" onmouseup="mouseUp()"  type="image" src="images/normal.png" width="250" height="250" />
     </div>
           </div>
@@ -65,26 +68,31 @@
 </div>
 
        
-<div class="payPal">
-  <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fthatsoffensive.github.io%2Foffendbot%2F&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="100" height="auto" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-</div>
+   
  
   
  
+<footer>
 
- <div class="audio">
-    <audio onloadstart="this.volume=0.2" controls  preload="metadata" loop>
+  <div class="fb">
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fthatsoffensive.github.io%2Foffendbot%2F&layout=button&size=large&mobile_iframe=true&width=73&height=28&appId" width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </div>
+
+   </footer>
+
+   <div class="audio">
+
+    <audio onloadstart="this.volume=0.2" controls  preload="metadata" autoplay loop>
       <source src="audio/audio.mp3" type="audio/ogg">
     </audio>
   </div> 
 
-
-
-
-    <script defer type="text/javascript" src="jquery.min.js"></script>
+<script defer type="text/javascript" src="jquery.min.js"></script>
     <script src="script.js"></script>
     <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+
   </body>
+  
 </html>
 
 
