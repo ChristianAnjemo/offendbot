@@ -5,6 +5,8 @@
  * Using addEventListener we add a listener that listens for clicks on the element with the ID of "button" 
  * When a click is detected, we run the function roast();
  */
+
+
 document.addEventListener("DOMContentLoaded", function() {
 var name = (getParameterByName('name') ? getParameterByName('name') : ''); // "Olivia" try changing the value after ?name= in the URL
 document.getElementById('usersName').value = name;
@@ -88,24 +90,22 @@ insults[68] = ', its sad that the profile picture you have on facebook is the be
 insults[69] = ', if I said anything to offend you it was purely intentional';
 insults[70] = ', someday you will find yourself, and will you be disappointed.';
 insults[71] = ', I get so emotional when you are not around. That emotion is happiness.'; 
-insults[72] = ', you are so fat that people mistake you as another planet.’;
-insults[73] = ', you are so fat that the only letters of the alphabet you know are K F C.’;
-insults[74] = ', you have something on your chin. No, the 3rd one down… ’;
-insults[75] = ', what kind of accident were you in to look like this? ’;
-insults[76] = ', do aliens exist? Wait that is a stupid question since you are one’;
-insults[77] = ', two wrongs don’t make a right, take your parents as an example’;
-insults[78] = ', you are as sickening as a rotten pile of anal slug vomit’;
-insults[79] = ', you are as disgusting as a smelly slimy cockroach anal’;
-insults[80] = ', you are as absurd as an anal cloud of disgusting repulsive chicken stench.’;
-insults[81] = ', you are as worthless as a deformed pig dick.’;
-insults[82] = ', you are as terrifying as a fuckload of deformed moldy monkey dicks’;
-insults[83] = ', you are as repellent as an absurd multitude of ill sorry repugnant monkey assholes’;
-insults[84] = ', hey, I can make a song about your teeth: black and yellow black and yellow’;
-insults[85] = ', you are as repellent as an absurd multitude of ill monkey assholes’;
-insults[86] = ', you are as faulty as a naughty dirty fuckload of repellent maggot slime’;
-insults[87] = ', you are as sickening as a slimy and toxic bunch of useless bug balls’;
-
-
+insults[72] = ', you are so fat that people mistake you as another planet.';
+insults[73] = ', you are so fat that the only letters of the alphabet you know are K F C.';
+insults[74] = ', you have something on your chin. No, the 3rd one down… ';
+insults[75] = ', what kind of accident were you in to look like this? ';
+insults[76] = ', do aliens exist? Wait that is a stupid question since you are one';
+insults[77] = ', two wrongs don’t make a right, take your parents as an example';
+insults[78] = ', you are as sickening as a rotten pile of anal slug vomit';
+insults[79] = ', you are as disgusting as a smelly slimy cockroach anal';
+insults[80] = ', you are as absurd as an anal cloud of disgusting repulsive chicken stench.';
+insults[81] = ', you are as worthless as a deformed pig dick.';
+insults[82] = ', you are as terrifying as a fuckload of deformed moldy monkey dicks';
+insults[83] = ', you are as repellent as an absurd multitude of ill sorry repugnant monkey assholes';
+insults[84] = ', hey, I can make a song about your teeth: black and yellow black and yellow';
+insults[85] = ', you are as repellent as an absurd multitude of ill monkey assholes';
+insults[86] = ', you are as faulty as a naughty dirty fuckload of repellent maggot slime';
+insults[87] = ', you are as sickening as a slimy and toxic bunch of useless bug balls';
 
 
 
