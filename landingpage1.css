@@ -1,107 +1,119 @@
 body {
-font-family: 'courier', serif;
-color: black;
-background-color: #2BCBAE;
-background-size: cover;
-text-align: center;
+  font-family: 'courier', serif;
+  color: black;
+  background-color: #2BCBAE;
+  background-size: cover;
+  text-align: center;
 }
-a.menu_links {
-cursor: pointer;
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(43,203,174,.9);
+  z-index: 1;
 }
 .logo {
-position: center;
+  display: block;
+  max-height: 70px;
 }
+.aboutUsLink {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  padding-top: 12px;
+  padding-right: 12px;
+}
+
+/* MAIN CONTENT */
 .container {
-width: 100%;
-position: relative;
-margin:0 auto;
-line-height: 1.4em;
+  width: 100%;
+  position: relative;
+  margin: 70px auto 0;
+  line-height: 1.4em;
 }
 .site-container {
-position: fixed;
-width: 100%;
-height: 100%;
-top: 0px;
-left: 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .content-container {
-width: 100%;
-}
-.header {
-height: 54px;
+  width: 100%;
 }
 .buttonPlacement {
-display: flex;
-width: 100%;
-justify-content: center;
-margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
 }
 /*
 removes blue lines around button
 */
 #button {
-outline:0px !important;
--webkit-appearance:none;
-display: flex;
-align-items: center;
-cursor: url(images/fuck.png) , auto;
+  outline:0px !important;
+  -webkit-appearance:none;
+  display: flex;
+  align-items: center;
+  cursor: url(images/fuck.png) , auto;
 }
 .instructions {
-align-content: left;
+  align-content: left;
 }
 /*
 Username goes here
 */
 .inputter {
-position: center;
-border: 0px;
-border-bottom: 1px solid black;
-width: 80%;
-max-width: 400px;
-color: black;
-background: rgba(0, 0, 0, 0);
-font-size: 200%;
-font-weight: 300;
-text-align: center;
-margin: 0 auto;
-display: flex;
-align-items: flex-end;
-font-family: 'courier', serif;
-padding-bottom: 12px;
+  position: center;
+  border: 0px;
+  border-bottom: 1px solid black;
+  width: 80%;
+  max-width: 400px;
+  color: black;
+  background: rgba(0, 0, 0, 0);
+  font-size: 200%;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  font-family: 'courier', serif;
+  padding-bottom: 12px;
 }
 .textcontainer {
-width:80%;
-text-align: center ;
-margin-left: auto ;
-margin-right: auto ;
+  width:80%;
+  text-align: center ;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 /*text opacity in username line*/
-a
 .inputter:-ms-clear {
-display:none;
+  display:none;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-color: black;
+  color: black;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-color: black;
+  color: black;
 }
 :-ms-input-placeholder { /* IE 10+ */
-color: black;
+  color: black;
 }
 :-moz-placeholder { /* Firefox 18- */
-color: black;
+  color: black;
 }
 .inputter:focus {
-outline-style:none;
-box-shadow:none;
-border-color:transparent;
-border: 0px;
-border-bottom: 1px solid black;
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+  border: 0px;
+  border-bottom: 1px solid black;
 }
 /*
 makes text disappear when user types name
@@ -111,88 +123,41 @@ makes text disappear when user types name
 .inputter:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
 .inputter:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 #counter {
-position:fixed;
-top:16px;
-left:16px;
+  position:fixed;
+  top:16px;
+  left:16px;
 }
 textarea {
-resize: none;
-padding: 8px;
-width:80%;
-border: none;
-overflow: auto;
-outline: none;
--webkit-box-shadow: none;
--moz-box-shadow: none;
-box-shadow: none;
-background: transparent;
-text-align: center;
+  resize: none;
+  padding: 8px;
+  width:80%;
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  text-align: center;
 }
-.link {
-  z-index: 5;
-}
-.link a {
-color: black;
-background-color: transparent;
-text-decoration: none;
-position:relative;
-display: flex;
-justify-content: flex-end;
-padding-top: 12px;
-padding-right: 12px;
-  z-index: 5;
-}
-/*
-Audio and audio hover effect
-*/
-.audio {
-position:relative;
-display: flex;
-justify-content: flex-end;
-bottom:0;
-right:0;
-margin-right: 10px;
-}
-.audiobox {
-width: 20vh;
-max-width: 200px;
-}
-audio:hover, audio:focus, audio:active
-{
--webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
--moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
--webkit-transform: scale(1.05);
--moz-transform: scale(1.05);
-transform: scale(1.05);
-}
-audio {
--webkit-transition:all 0.5s linear;
--moz-transition:all 0.5s linear;
--o-transition:all 0.5s linear;
-transition:all 0.5s linear;
--moz-box-shadow: 2px 2px 4px 0px #006773;
--webkit-box-shadow:  2px 2px 4px 0px #006773;
-box-shadow: 2px 2px 4px 0px #006773;
--moz-border-radius:7px 7px 7px 7px ;
--webkit-border-radius:7px 7px 7px 7px ;
-border-radius:7px 7px 7px 7px ;
-}
+
+
+
 .copyButton {
-background-color: transparent;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-width: 30%;
-border-radius: 12px;
-border: 3px solid white;
-font-family: 'courier', serif;
-margin-bottom: 24px;
+  background-color: transparent;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 12px;
+  border: 3px solid white;
+  font-family: 'courier', serif;
+  margin-bottom: 24px;
 }
 #url {
 margin-top: 12px;
@@ -231,12 +196,6 @@ top: 70%;
 left: 70%;
 }
 
-.logo {
-  width:30%;
-  max-width: 400px;
-  float: left;
-}
-
 .urlinstruct {
   margin: 10px;
 }
@@ -249,42 +208,83 @@ and (orientation:portrait) {
   body {
     font-size:13px;
   }
-#insultPrinter {
+  #insultPrinter {
     font-size: 14px;
-}
-.logo {
-  margin-top: -30px;
-  width: 180px;
-}
-.copyButton {
-      margin-bottom: 14px;
-      padding: 10px 13px;
-}
-.instructions {
+  }
+  .copyButton {
+    margin-bottom: 14px;
+    padding: 10px 13px;
+  }
+  .instructions {
     margin: 10px;
-}
-.inputter {
-      font-size: 170%;
+  }
+  .inputter {
+    font-size: 170%;
     padding-bottom: 0px;
     margin-top: 12px;
-}
-#about {
-      top: 110px;
-}
-#about, #quote{
+  }
+  #about {
+    top: 110px;
+  }
+  #about, #quote{
     position: absolute;
     height: 100px;
     width: 100%;
     margin: 0px;
     left: 0px;
-}
-#quote{
+  }
+  #quote{
     bottom: 80px;
-}
-
-#counter {
+  }
+  #counter {
     top: 360px;
-}
+  }
 
 }
+
+
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/*
+Audio and audio hover effect
+*/
+.audio {
+  position:relative;
+  display: flex;
+  justify-content: flex-end;
+  bottom:0;
+  right:0;
+  margin-right: 10px;
+}
+.audiobox {
+  width: 20vh;
+  max-width: 200px;
+}
+audio:hover, audio:focus, audio:active
+{
+  -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+audio {
+  -webkit-transition:all 0.5s linear;
+  -moz-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  transition:all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px #006773;
+  -webkit-box-shadow:  2px 2px 4px 0px #006773;
+  box-shadow: 2px 2px 4px 0px #006773;
+  -moz-border-radius:7px 7px 7px 7px ;
+  -webkit-border-radius:7px 7px 7px 7px ;
+  border-radius:7px 7px 7px 7px ;
 }
