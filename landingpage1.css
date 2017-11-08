@@ -153,8 +153,14 @@ Audio and audio hover effect
      bottom:0;
     right:0;
     margin-right: 10px;
+
 }
 
+
+.audiobox {
+  width: 20vh;
+  max-width: 200px;
+}
 
 audio:hover, audio:focus, audio:active
 {
