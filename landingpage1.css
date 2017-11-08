@@ -124,7 +124,7 @@ makes text disappear when user types name
 .inputter:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 #counter {
   position:fixed;
-  top:16px;
+  top:76px;
   left:16px;
 }
 textarea {
