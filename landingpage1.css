@@ -149,7 +149,9 @@ Audio and audio hover effect
 */
 
   .audio {
-  position:fixed;
+  position:relative;
+  display: flex;
+  justify-content: flex-end;
      bottom:0;
     right:0;
     margin-right: 10px;
